@@ -1,0 +1,716 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Outfit;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: black;
+  user-select: none;
+  color: white;
+}
+
+main {
+  width: 100vw;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 758px) {
+  .container {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .navigation {
+    width: 70% !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: auto;
+  }
+
+  .logo {
+    margin-top: 10px;
+    width: 7vw;
+  }
+
+  .home {
+    height: max-content !important;
+  }
+
+  .introduction {
+    display: block !important;
+  }
+
+  .introduction .text {
+    width: 80% !important;
+  }
+
+  .links {
+    bottom: 2vw !important;
+  }
+
+  .links img {
+    width: 4vw !important;
+  }
+
+  .hero {
+    position: relative !important;
+    margin-top: 30px !important;
+    width: 100% !important;
+    height: auto !important;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100% !important;
+  }
+
+  .hero .link img {
+    width: 4vw !important;
+  }
+
+  .information {
+    height: max-content !important;
+  }
+
+  .progress {
+    height: max-content !important;
+  }
+
+  .roadmap {
+    position: relative !important;
+    margin-top: 50px !important;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .roadmap img {
+    width: 80vw !important;
+    height: auto;
+  }
+
+  .progressbar {
+    position: relative !important;
+    margin-top: 50px !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .progressbar img {
+    width: 80vw !important;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .step {
+    font-size: 18px !important;
+  }
+
+  .text {
+    font-size: 24px !important;
+  }
+
+  footer .mark .footer-logo img{
+    width: 20% !important;
+  }
+
+  footer {
+    background-size: cover !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .navigation {
+    width: 40% !important;
+  }
+
+  .home {
+    height: 70vh !important;
+  }
+
+  .home .introduction {
+    height: calc(70vh - 70px) !important;
+  }
+
+  .links {
+    bottom: 2vw !important;
+    right: 2vw !important;
+  }
+
+  .hero img {
+    width: 50vw !important;
+  }
+
+  .text {
+    font-size: 18px !important;
+    margin-left: 20px !important;
+  }
+
+  .left-hero img{
+    width: 18vw !important;
+  }
+
+  .right-hero img{
+    width: 18vw !important;
+  }
+
+  .information {
+    height: 80vh !important;
+  }
+
+  .progress {
+    height: 85vh !important;
+  }
+
+  .progress .credit-card img {
+    width: 50vw !important;
+  }
+
+  .progress .vector img {
+    width: 60vw !important;
+  }
+
+  .sub-title {
+    font-size: 12px !important;
+  }
+
+  .detail-item p {
+    font-size: 12px !important;
+  }
+
+  .detail-item img {
+    width: 38vw !important;
+    left: -13vw !important;
+    top: -15vw !important;
+  }
+
+  .line {
+    width: 30px !important;
+  }
+
+  .sub-title p:last-child {
+    font-size: 14px !important;
+  }
+
+  .progress .sub-title {
+    right: 5vw !important;
+    margin: 0 !important;
+  }
+
+  .progress .steps {
+    margin-top:  0 !important;
+  }
+
+  .detail-steps .title {
+    font-size: 16px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 16px !important;
+  }
+
+  .steps {
+    font-size: 16px !important;
+  }
+
+  footer {
+    margin-left: 20px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .container {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .left-hero img{
+    width: 18vw !important;
+  }
+
+  .right-hero img{
+    width: 18vw !important;
+  }
+
+  .information {
+    height: 100vh !important;
+  }
+
+  .progress {
+    background-size: contain !important;
+    height: 100vh !important;
+  }
+
+  .progress .credit-card img {
+    width: 50vw !important;
+  }
+
+  .progress .vector img {
+    width: 60vw !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .steps {
+    font-size: 18px !important;
+  }
+
+  .home {
+    width: 100vw;
+    height: 80vh !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home .introduction {
+    display: flex;
+    height: calc(80vh - 60px) !important;
+    color: white
+  }
+
+}
+@media (min-width: 1400px) {
+  .container {
+    padding-top: 30px;
+    width: 100%;
+    position: relative;
+  }
+
+  .hero img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .roadmap img {
+    width: 90% !important;
+    height: auto;
+  }
+
+  .progressbar img {
+    width: 80% !important;
+    height: auto;
+  }
+
+  .home {
+    width: 100vw;
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home .introduction {
+    display: flex;
+    height: calc(100vh - 60px) !important;
+    color: white
+  }
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.navigation {
+  width: 30%;
+  height: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: auto;
+}
+
+.navigation_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.navigation_ul li {
+  list-style: none;
+}
+
+.navigation_ul li a {
+  color: #878787;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation_ul li a:hover {
+  color: #D7BE5A;
+}
+
+.highlight {
+  color: #D7BE5A;
+  font-family: Archivo !important;
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.home .introduction {
+  display: flex;
+  height: calc(100vh - 60px);
+  color: white
+}
+
+.introduction .text {
+  text-align: left;
+  color: #878787;
+  font-size: 24.126px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  word-break: normal;
+  width: 40%;
+  margin: 50px auto;
+  padding: 0 8% 0px 30px;
+}
+
+.introduction h1 {
+  color: white;
+  font-size: 51.64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 56.19px;
+  margin-top: 20px !important;
+}
+
+.introduction .text p { 
+  text-align: justify;
+}
+
+.learn-more-button {
+  margin-top: 50px;
+}
+
+.learn-more-button a {
+  border-radius: 13px;
+  background: linear-gradient(92.73deg, #161616 0%, #2E2E2E 100%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 300;
+}
+
+.hero {
+  width: 60%;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.hero img {
+  width: 90%;
+  height: auto;
+}
+
+.hero .links {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  gap: 70px;
+  bottom: 30px;
+  right: 70px;
+}
+
+.hero .links img {
+  width: 2vw !important;
+}
+
+.information {
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+
+.information .container {
+  position: relative;
+}
+
+.information .introduction {
+  margin-top: 10vh;
+}
+
+.sub-title {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 9px;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vw;
+}
+
+.sub-title .left-fixed {
+  text-align: left;
+}
+
+.sub-title .right-fixed {
+  text-align: center;
+}
+
+.sub-title p:last-child{
+  font-size: 16px;
+}
+
+.top-30 {
+  top: 30px;
+}
+
+.color-gray {
+  color: #949494;
+}
+
+.left-hero {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+}
+
+.left-hero img {
+  width: 16vw;
+  height: auto;
+}
+
+.right-hero {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+}
+
+.right-hero img {
+  width: 16vw;
+  height: auto;
+}
+
+.detail-steps {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 5vw;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-item {
+  width: 15vw;
+  text-align: justify;
+  position: relative;
+}
+
+.detail-item img {
+  position: absolute;
+  top: -14vw;
+  left: -10vw;
+  width: 32vw;
+}
+
+.detail-steps .title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: #949494;
+  width: 76px;
+  height: 1px;
+}
+
+.detail-item p {
+  color: #949494;
+}
+
+.center {
+  justify-content: center !important;
+}
+
+.mt-7 {
+  margin-top: 7vw;
+}
+
+.roadmap {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.progress {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.progress .container {
+  text-align: left;
+  position: relative;
+}
+
+.progress .container .introduction {
+  padding: 30px 5vw;
+}
+
+.progress .container .sub-title {
+  position: absolute;
+  display: block;
+  text-align: center;
+  right: 5vw;
+  margin: 0 !important;
+  top: 80px;
+}
+
+.progress .vector {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55vw;
+  text-align: right;
+}
+
+.progress .credit-card {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.progress .credit-card img {
+  width: 45vw;
+}
+
+.progress .steps {
+  color: #878787;
+  font-size: 20px;
+  display: flex;
+  margin-top: 5vw;
+}
+
+.progress .steps .step {
+  width: 50%;
+  margin: 0 5vw;
+}
+
+.progress .steps .step h3 {
+  letter-spacing: 5px;
+}
+
+.progress .steps .step .one-step {
+  margin-top: 5vh;
+}
+
+.progress h3 {
+  color: white;
+  font-weight: 200;
+}
+
+footer {
+  width: 100vw;
+  background: url('./images/footer_bg.png') no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+  background-position: center;
+  padding: 3vw;
+  display: flex;
+}
+
+footer .mark {
+  width: 50%;
+  color: #878787;
+}
+
+footer .mark p {
+  font-size: 18px;
+  width: 40%;
+  text-align: justify;
+}
+
+footer .mark .footer-logo img{
+  width: 4%;
+}
+
+footer .contact {
+  width: 50%;
+}
+
+footer .contact .footer-link {
+  display: flex;
+  width: 40vw;
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: 18px;
+}
+
+footer .contact .footer-link a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer .contact .footer-link a:hover {
+  color: #D7BE5A;
+}
+
+footer .contact .social-media {
+  text-align: right;
+  color: #878787;
+  width: 40vw;
+  margin-top: 3vw;
+}
